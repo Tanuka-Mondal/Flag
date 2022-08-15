@@ -4,4 +4,4 @@
 Website visible at:
 https://tanuka-mondal.github.io/Flag/
 
-![flag](https://drive.google.com/file/d/1cCsBsGADqT5KtGQjJURvdgz8uAp6k-B3/view?usp=sharing)
+![flag](https://github.com/Tanuka-Mondal/Flag/blob/main/flag.png)
