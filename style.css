@@ -1,0 +1,165 @@
+body{
+    background-color: #8af8fc;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.text{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    font-size: 50px;
+    animation-name: textanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    
+}
+#orange{
+    color: #ff8800;
+    text-shadow: 3px 0 3px #ff5e00, 0 0 5px #ffffff;
+}
+#white{
+    color: #fff;
+    text-shadow: 3px 0 3px #ffffff, 0 0 5px #000000;
+}
+#green{
+    color: green;
+    text-shadow: 3px 0 3px #005c00, 0 0 5px #ffffff;
+}
+
+.flag {
+	width: 600px;
+	height: 300px;
+	box-shadow: 0px 0px 90px 1px #989;
+	background-color: transparent;
+	position: relative;
+    margin: auto;
+    margin-top: 10%;
+    animation-name: flaganimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+
+.top {
+	height: 100px;
+	background-color: #ff9933;
+    
+}
+
+.middle {
+	height: 100px;
+	background-color: white
+}
+
+.bottom {
+	height: 100px;
+	background-color: green
+}
+.wheel {
+	height: 99px;
+	width: 99px;
+	border: 1px solid darkblue;
+	border-radius: 55px;
+	position: relative;
+	margin: 0 auto;
+    animation-name: wheel;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+
+.wheel .line {
+	height: 99px;
+	width: 1px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	background: darkblue;
+    
+}
+
+.line:nth-child(1) {
+	transform: rotate(15deg)
+}
+
+.line:nth-child(2) {
+	transform: rotate(30deg)
+}
+
+.line:nth-child(3) {
+	transform: rotate(45deg)
+}
+
+.line:nth-child(4) {
+	transform: rotate(60deg)
+}
+
+.line:nth-child(5) {
+	transform: rotate(75deg)
+}
+
+.line:nth-child(6) {
+	transform: rotate(90deg)
+}
+
+.line:nth-child(7) {
+	transform: rotate(105deg)
+}
+
+.line:nth-child(8) {
+	transform: rotate(120deg)
+}
+
+.line:nth-child(9) {
+	transform: rotate(135deg)
+}
+
+.line:nth-child(10) {
+	transform: rotate(150deg)
+}
+
+.line:nth-child(11) {
+	transform: rotate(165deg)
+}
+
+.line:nth-child(12) {
+	transform: rotate(180deg)
+}
+
+@keyframes textanimation{
+    0%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: 70px;
+    }
+}
+
+@keyframes flaganimation {
+    0%   {
+        width: 150px;
+    }
+    
+    100% {
+        width: 600px;
+    }
+  }
+
+@keyframes wheel {
+    
+    0% {
+        
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
