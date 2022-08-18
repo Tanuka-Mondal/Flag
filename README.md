@@ -8,4 +8,4 @@ https://tanuka-mondal.github.io/Flag/
 
 Here is the preview:
 
-![flag](https://github.com/Tanuka-Mondal/Flag/blob/main/flag.png)
+![flag](https://github.com/Tanuka-Mondal/Flag/blob/main/flag.gif)
